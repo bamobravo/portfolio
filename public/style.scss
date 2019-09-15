@@ -1,0 +1,157 @@
+$base:#ffffff;
+$highlightTest:#57b986;
+$darkText:#353744;
+$greyish:#666666;
+$overlay:#0009;
+$contrast:#784c0b;
+$fadedbg:#efefef;
+$bg:#57bdaf66;
+$bannerColor:#f0f0f0;
+$descText:#1c8c6c;
+
+$largeText:2.4rem;
+$mediumText:2rem;
+$normalText:1.2rem;
+$infoText:1.4rem;
+$mobile:10px;
+$largeShift:-150px;
+$mobileShift:-100px;
+
+body{
+    overflow-x:hidden;
+}
+.landing-header{
+    min-height: 300px;
+    height: 250;
+    position: relative;
+    background-image: url('./banner.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.overlay-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $overlay;
+    z-index: 5;;
+
+}
+.info-board{
+    position: relative;
+    z-index: 10;
+    margin-top:$largeShift;
+}
+.greeters{
+    background-color: $bannerColor;
+    height: 300px;
+}
+.name-section{
+    color: $highlightTest;
+    font-size: $largeText;
+}
+.hi{
+    font-size: $mediumText;
+    color: $contrast;
+}
+.welcome-message{
+    font-size:$mediumText;
+}
+.info-section{
+    font-size: $infoText;
+}
+.header-link{
+    position: absolute;
+    bottom: 20%;
+    top: auto;
+}
+.work-section{
+    background-color:$bg;
+}
+.footer{
+    border-top: $fadedbg solid thin;
+    background-color: $highlightTest;
+    // position: absolute;
+    // bottom: 0;
+    // top: auto;
+    width: 100%;
+    color: white;
+}
+.image-container > img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.work-item{
+    height: 350px;
+    background-color: white;
+}
+.portfolio-text{
+    background-color: $descText;
+    color: white;
+    position:relative;
+}
+.icon-icon{
+    color:$contrast;
+    text-align:center;
+    font-size:$largeText;
+    display:inline-block;
+    height:$mediumText;
+    width:$mediumText;
+    border-radius:50%;
+
+}
+.icon-icon:hover{
+    color:$contrast;
+    text-decoration:none;
+}
+.heading-title{
+    font-size:$mediumText;
+}
+.skill{
+    color:$contrast;
+    margin-left:8px;
+    font-size:$mediumText;
+}
+.portfolio-name{
+    font-weight:bold;
+}
+.porfolios{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+.btn-visit{
+    right:7px;
+    left:auto;
+    bottom:10px;
+    top:auto;
+    display:block;
+    position:absolute;
+    background:white;
+    color:$contrast;
+}
+.action-btn{
+    font-size:$largeText;
+    background-color: $descText!important;
+    color: white!important;
+}
+@media (max-width:768px){
+    body{
+        font-size:$mobile;
+    }
+    .greeters{
+        height:auto;
+    }
+    .row{
+        margin-right:0px;
+        margin-left:0px;
+    }
+    .work-section{
+        padding:0;
+    }
+    .work-item{
+        height: auto;
+    }
+}
