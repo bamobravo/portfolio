@@ -1,10 +1,22 @@
 const portfolio = [
     
     {
-        "title": "Faculty Of Social Sciences University of Ibadan Portal",
-        "description": "A state persistent database driven result management system for the Faculty of Social Science University of Ibadan",
-        "image": "images/rms.png",
-        "url" : "https://http://socsc.ui.edu.ng/rms/"
+        "title": "AIICO Insurance PLC",
+        "description": "A website and E-commerce Platform for AIICO Insurance",
+        "image": "images/aiico.png",
+        "url" : "https://www.aiicoplc.com/"
+    },
+    {
+        "title": "AIICO Multishield",
+        "description": "A website and E-commerce Platform for AIICO Multishield",
+        "image": "images/multishield.png",
+        "url" : "https://aiicomultishield.com/"
+    },
+    {
+        "title": "DLC University of Ibadan Application Portal",
+        "description": "An candidate application portal for the Distance Learning Center, University of Ibadan",
+        "image": "images/modeofstudy.png",
+        "url" : "https://modeofstudy.ui.edu.ng/"
     },
     {
         "title":"Ekiti State University Portal",

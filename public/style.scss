@@ -137,6 +137,11 @@ body{
     background-color: $descText!important;
     color: white!important;
 }
+.portfolio-bg{
+    background-position:center;
+    background-size: contain;
+}
+
 @media (max-width:768px){
     body{
         font-size:$mobile;

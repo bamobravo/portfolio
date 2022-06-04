@@ -21,6 +21,10 @@ body {
   z-index: 5;
 }
 
+.portfolio-bg{
+  background-position:center;
+  background-size: contain;
+}
 .info-board {
   position: relative;
   z-index: 10;

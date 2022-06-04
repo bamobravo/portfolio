@@ -23,21 +23,21 @@ class Landing extends React.Component {
         return (
             <div className='container-fluid p-0'>
                 <LandingHeader myName={this.state.name} message={this.state.message}/>
-                <div class='row'>
-                    <div class='col-sm-3'></div>
-                    <div class='col-sm-6'>
-                        <div class='btn-group'>
+                <div className='row'>
+                    <div className='col-sm-3'></div>
+                    <div className='col-sm-6'>
+                        <div className='btn-group'>
 
                         </div>
                     </div>
-                    <div class='col-sm-3'></div>
+                    <div className='col-sm-3'></div>
                 </div>
-                <div class='row work-section'>
-                <div class='col-md-2'></div>
-                <div class = 'col-md-8' >
+                <div className='row work-section'>
+                <div className='col-md-2'></div>
+                <div className = 'col-md-8' >
                     <LandingBody portfolios={this.state.myPortfolio}/>
                  </div>
-                <div class = 'col-md-2' > </div>
+                <div className = 'col-md-2' > </div>
                 </div>
                 
                 <Footer name={this.state.name}/>
