@@ -79,7 +79,7 @@ const PortFolios = (props)=>{
 const PortfolioItem = (props)=>{
     return(
         <div className="row work-item mb-4" >
-            <div className='col-sm-7 p-0 portfolio-bg' style={{backgroundImage:`url(${props.portfolio.image})`,backgroundSize:'contain'}}>
+            <div className='col-sm-7 p-0 portfolio-bg' style={{backgroundImage:`url(${props.portfolio.image})`,backgroundSize:'contain', backgroundRepeat:'no-repeat'}}>
                 {/* <div className='image-container'>
                     <img src={props.portfolio.image}  alt="project-icon" />
                 </div> */}
